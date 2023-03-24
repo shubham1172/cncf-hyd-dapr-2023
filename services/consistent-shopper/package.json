@@ -1,0 +1,15 @@
+{
+  "name": "consistent-shopper",
+  "version": "0.1.0",
+  "description": "A really-consistent shopper!",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubham Sharma",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@dapr/dapr": "^3.0.0"
+  }
+}
