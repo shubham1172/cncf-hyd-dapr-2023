@@ -5,8 +5,12 @@ This respository contains the source code for my demo at CNCF Hyderabad March 20
 ## Running this example locally
 
 ```bash
-# (Optional) Clean up logs from previous runs
-make clean-logs
-# Run the example
-make start
+# Start the store back-end
+make start-store-backend
+
+# Start the store front-end
+make start-store-frontend
+
+# Start the consistent shopper
+make start-consistent-shopper
 ```
